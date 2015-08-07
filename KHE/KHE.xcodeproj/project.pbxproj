@@ -7,50 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D669AA0B1B72A872003602D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669AA0A1B72A872003602D5 /* AppDelegate.swift */; };
-		D669AA0D1B72A872003602D5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669AA0C1B72A872003602D5 /* RootViewController.swift */; };
-		D669AA0F1B72A872003602D5 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669AA0E1B72A872003602D5 /* DataViewController.swift */; };
-		D669AA111B72A872003602D5 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669AA101B72A872003602D5 /* ModelController.swift */; };
-		D669AA141B72A872003602D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D669AA121B72A872003602D5 /* Main.storyboard */; };
-		D669AA161B72A872003602D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D669AA151B72A872003602D5 /* Images.xcassets */; };
-		D669AA191B72A872003602D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D669AA171B72A872003602D5 /* LaunchScreen.xib */; };
-		D669AA251B72A872003602D5 /* KHETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669AA241B72A872003602D5 /* KHETests.swift */; };
+		403060059893AEA6BA6BE7DB /* Pods_KHE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CF9E9A9814D7CCFA827C71 /* Pods_KHE.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D67017531B7460F50094B263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67017521B7460F50094B263 /* AppDelegate.swift */; };
+		D67017561B7460F50094B263 /* KHE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D67017541B7460F50094B263 /* KHE.xcdatamodeld */; };
+		D67017581B7460F50094B263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67017571B7460F50094B263 /* ViewController.swift */; };
+		D670175B1B7460F50094B263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67017591B7460F50094B263 /* Main.storyboard */; };
+		D670175D1B7460F50094B263 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D670175C1B7460F50094B263 /* Images.xcassets */; };
+		D67017601B7460F50094B263 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D670175E1B7460F50094B263 /* LaunchScreen.xib */; };
+		D670176C1B7460F50094B263 /* KHETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D670176B1B7460F50094B263 /* KHETests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D669AA1F1B72A872003602D5 /* PBXContainerItemProxy */ = {
+		D67017661B7460F50094B263 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D669A9FD1B72A872003602D5 /* Project object */;
+			containerPortal = D67017451B7460F50094B263 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D669AA041B72A872003602D5;
+			remoteGlobalIDString = D670174C1B7460F50094B263;
 			remoteInfo = KHE;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D669AA051B72A872003602D5 /* KHE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHE.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D669AA091B72A872003602D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D669AA0A1B72A872003602D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D669AA0C1B72A872003602D5 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		D669AA0E1B72A872003602D5 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		D669AA101B72A872003602D5 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		D669AA131B72A872003602D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D669AA151B72A872003602D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D669AA181B72A872003602D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D669AA1E1B72A872003602D5 /* KHETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KHETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D669AA231B72A872003602D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D669AA241B72A872003602D5 /* KHETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHETests.swift; sourceTree = "<group>"; };
+		19CF9E9A9814D7CCFA827C71 /* Pods_KHE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KHE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5BF0BD4775AC2E2A8639CE /* Pods-KHE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KHE/Pods-KHE.debug.xcconfig"; sourceTree = "<group>"; };
+		708CB9F6C9BFB87CAF216F3B /* Pods-KHE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHE.release.xcconfig"; path = "Pods/Target Support Files/Pods-KHE/Pods-KHE.release.xcconfig"; sourceTree = "<group>"; };
+		D670174D1B7460F50094B263 /* KHE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67017511B7460F50094B263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D67017521B7460F50094B263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D67017551B7460F50094B263 /* KHE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KHE.xcdatamodel; sourceTree = "<group>"; };
+		D67017571B7460F50094B263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D670175A1B7460F50094B263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D670175C1B7460F50094B263 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D670175F1B7460F50094B263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D67017651B7460F50094B263 /* KHETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KHETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D670176A1B7460F50094B263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D670176B1B7460F50094B263 /* KHETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHETests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D669AA021B72A872003602D5 /* Frameworks */ = {
+		D670174A1B7460F50094B263 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403060059893AEA6BA6BE7DB /* Pods_KHE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D669AA1B1B72A872003602D5 /* Frameworks */ = {
+		D67017621B7460F50094B263 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,60 +63,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D669A9FC1B72A872003602D5 = {
+		98670004169185E02BBA0DFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D669AA071B72A872003602D5 /* KHE */,
-				D669AA211B72A872003602D5 /* KHETests */,
-				D669AA061B72A872003602D5 /* Products */,
+				19CF9E9A9814D7CCFA827C71 /* Pods_KHE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D26273DD1664B150EE2B7510 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BF0BD4775AC2E2A8639CE /* Pods-KHE.debug.xcconfig */,
+				708CB9F6C9BFB87CAF216F3B /* Pods-KHE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D67017441B7460F50094B263 = {
+			isa = PBXGroup;
+			children = (
+				D670174F1B7460F50094B263 /* KHE */,
+				D67017681B7460F50094B263 /* KHETests */,
+				D670174E1B7460F50094B263 /* Products */,
+				D26273DD1664B150EE2B7510 /* Pods */,
+				98670004169185E02BBA0DFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		D669AA061B72A872003602D5 /* Products */ = {
+		D670174E1B7460F50094B263 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D669AA051B72A872003602D5 /* KHE.app */,
-				D669AA1E1B72A872003602D5 /* KHETests.xctest */,
+				D670174D1B7460F50094B263 /* KHE.app */,
+				D67017651B7460F50094B263 /* KHETests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D669AA071B72A872003602D5 /* KHE */ = {
+		D670174F1B7460F50094B263 /* KHE */ = {
 			isa = PBXGroup;
 			children = (
-				D669AA0A1B72A872003602D5 /* AppDelegate.swift */,
-				D669AA0C1B72A872003602D5 /* RootViewController.swift */,
-				D669AA0E1B72A872003602D5 /* DataViewController.swift */,
-				D669AA101B72A872003602D5 /* ModelController.swift */,
-				D669AA121B72A872003602D5 /* Main.storyboard */,
-				D669AA151B72A872003602D5 /* Images.xcassets */,
-				D669AA171B72A872003602D5 /* LaunchScreen.xib */,
-				D669AA081B72A872003602D5 /* Supporting Files */,
+				D67017521B7460F50094B263 /* AppDelegate.swift */,
+				D67017571B7460F50094B263 /* ViewController.swift */,
+				D67017591B7460F50094B263 /* Main.storyboard */,
+				D670175C1B7460F50094B263 /* Images.xcassets */,
+				D670175E1B7460F50094B263 /* LaunchScreen.xib */,
+				D67017541B7460F50094B263 /* KHE.xcdatamodeld */,
+				D67017501B7460F50094B263 /* Supporting Files */,
 			);
 			path = KHE;
 			sourceTree = "<group>";
 		};
-		D669AA081B72A872003602D5 /* Supporting Files */ = {
+		D67017501B7460F50094B263 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D669AA091B72A872003602D5 /* Info.plist */,
+				D67017511B7460F50094B263 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D669AA211B72A872003602D5 /* KHETests */ = {
+		D67017681B7460F50094B263 /* KHETests */ = {
 			isa = PBXGroup;
 			children = (
-				D669AA241B72A872003602D5 /* KHETests.swift */,
-				D669AA221B72A872003602D5 /* Supporting Files */,
+				D670176B1B7460F50094B263 /* KHETests.swift */,
+				D67017691B7460F50094B263 /* Supporting Files */,
 			);
 			path = KHETests;
 			sourceTree = "<group>";
 		};
-		D669AA221B72A872003602D5 /* Supporting Files */ = {
+		D67017691B7460F50094B263 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D669AA231B72A872003602D5 /* Info.plist */,
+				D670176A1B7460F50094B263 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -121,13 +142,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D669AA041B72A872003602D5 /* KHE */ = {
+		D670174C1B7460F50094B263 /* KHE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D669AA281B72A872003602D5 /* Build configuration list for PBXNativeTarget "KHE" */;
+			buildConfigurationList = D670176F1B7460F50094B263 /* Build configuration list for PBXNativeTarget "KHE" */;
 			buildPhases = (
-				D669AA011B72A872003602D5 /* Sources */,
-				D669AA021B72A872003602D5 /* Frameworks */,
-				D669AA031B72A872003602D5 /* Resources */,
+				B659581AA00A28C9F1BD2447 /* Check Pods Manifest.lock */,
+				D67017491B7460F50094B263 /* Sources */,
+				D670174A1B7460F50094B263 /* Frameworks */,
+				D670174B1B7460F50094B263 /* Resources */,
+				BF1B12EC96880F5B079954BA /* Embed Pods Frameworks */,
+				64D8353162B2803C5059D97B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,46 +159,46 @@
 			);
 			name = KHE;
 			productName = KHE;
-			productReference = D669AA051B72A872003602D5 /* KHE.app */;
+			productReference = D670174D1B7460F50094B263 /* KHE.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D669AA1D1B72A872003602D5 /* KHETests */ = {
+		D67017641B7460F50094B263 /* KHETests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D669AA2B1B72A872003602D5 /* Build configuration list for PBXNativeTarget "KHETests" */;
+			buildConfigurationList = D67017721B7460F50094B263 /* Build configuration list for PBXNativeTarget "KHETests" */;
 			buildPhases = (
-				D669AA1A1B72A872003602D5 /* Sources */,
-				D669AA1B1B72A872003602D5 /* Frameworks */,
-				D669AA1C1B72A872003602D5 /* Resources */,
+				D67017611B7460F50094B263 /* Sources */,
+				D67017621B7460F50094B263 /* Frameworks */,
+				D67017631B7460F50094B263 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D669AA201B72A872003602D5 /* PBXTargetDependency */,
+				D67017671B7460F50094B263 /* PBXTargetDependency */,
 			);
 			name = KHETests;
 			productName = KHETests;
-			productReference = D669AA1E1B72A872003602D5 /* KHETests.xctest */;
+			productReference = D67017651B7460F50094B263 /* KHETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D669A9FD1B72A872003602D5 /* Project object */ = {
+		D67017451B7460F50094B263 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = HacKSU;
 				TargetAttributes = {
-					D669AA041B72A872003602D5 = {
+					D670174C1B7460F50094B263 = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					D669AA1D1B72A872003602D5 = {
+					D67017641B7460F50094B263 = {
 						CreatedOnToolsVersion = 6.3;
-						TestTargetID = D669AA041B72A872003602D5;
+						TestTargetID = D670174C1B7460F50094B263;
 					};
 				};
 			};
-			buildConfigurationList = D669AA001B72A872003602D5 /* Build configuration list for PBXProject "KHE" */;
+			buildConfigurationList = D67017481B7460F50094B263 /* Build configuration list for PBXProject "KHE" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -182,29 +206,29 @@
 				en,
 				Base,
 			);
-			mainGroup = D669A9FC1B72A872003602D5;
-			productRefGroup = D669AA061B72A872003602D5 /* Products */;
+			mainGroup = D67017441B7460F50094B263;
+			productRefGroup = D670174E1B7460F50094B263 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D669AA041B72A872003602D5 /* KHE */,
-				D669AA1D1B72A872003602D5 /* KHETests */,
+				D670174C1B7460F50094B263 /* KHE */,
+				D67017641B7460F50094B263 /* KHETests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D669AA031B72A872003602D5 /* Resources */ = {
+		D670174B1B7460F50094B263 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D669AA141B72A872003602D5 /* Main.storyboard in Resources */,
-				D669AA191B72A872003602D5 /* LaunchScreen.xib in Resources */,
-				D669AA161B72A872003602D5 /* Images.xcassets in Resources */,
+				D670175B1B7460F50094B263 /* Main.storyboard in Resources */,
+				D67017601B7460F50094B263 /* LaunchScreen.xib in Resources */,
+				D670175D1B7460F50094B263 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D669AA1C1B72A872003602D5 /* Resources */ = {
+		D67017631B7460F50094B263 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -213,49 +237,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64D8353162B2803C5059D97B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KHE/Pods-KHE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B659581AA00A28C9F1BD2447 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1B12EC96880F5B079954BA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KHE/Pods-KHE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		D669AA011B72A872003602D5 /* Sources */ = {
+		D67017491B7460F50094B263 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D669AA0D1B72A872003602D5 /* RootViewController.swift in Sources */,
-				D669AA111B72A872003602D5 /* ModelController.swift in Sources */,
-				D669AA0F1B72A872003602D5 /* DataViewController.swift in Sources */,
-				D669AA0B1B72A872003602D5 /* AppDelegate.swift in Sources */,
+				D67017581B7460F50094B263 /* ViewController.swift in Sources */,
+				D67017561B7460F50094B263 /* KHE.xcdatamodeld in Sources */,
+				D67017531B7460F50094B263 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D669AA1A1B72A872003602D5 /* Sources */ = {
+		D67017611B7460F50094B263 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D669AA251B72A872003602D5 /* KHETests.swift in Sources */,
+				D670176C1B7460F50094B263 /* KHETests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D669AA201B72A872003602D5 /* PBXTargetDependency */ = {
+		D67017671B7460F50094B263 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D669AA041B72A872003602D5 /* KHE */;
-			targetProxy = D669AA1F1B72A872003602D5 /* PBXContainerItemProxy */;
+			target = D670174C1B7460F50094B263 /* KHE */;
+			targetProxy = D67017661B7460F50094B263 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D669AA121B72A872003602D5 /* Main.storyboard */ = {
+		D67017591B7460F50094B263 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D669AA131B72A872003602D5 /* Base */,
+				D670175A1B7460F50094B263 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D669AA171B72A872003602D5 /* LaunchScreen.xib */ = {
+		D670175E1B7460F50094B263 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D669AA181B72A872003602D5 /* Base */,
+				D670175F1B7460F50094B263 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -263,7 +334,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D669AA261B72A872003602D5 /* Debug */ = {
+		D670176D1B7460F50094B263 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -307,7 +378,7 @@
 			};
 			name = Debug;
 		};
-		D669AA271B72A872003602D5 /* Release */ = {
+		D670176E1B7460F50094B263 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,8 +415,9 @@
 			};
 			name = Release;
 		};
-		D669AA291B72A872003602D5 /* Debug */ = {
+		D67017701B7460F50094B263 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5BF0BD4775AC2E2A8639CE /* Pods-KHE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KHE/Info.plist;
@@ -354,8 +426,9 @@
 			};
 			name = Debug;
 		};
-		D669AA2A1B72A872003602D5 /* Release */ = {
+		D67017711B7460F50094B263 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708CB9F6C9BFB87CAF216F3B /* Pods-KHE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KHE/Info.plist;
@@ -364,7 +437,7 @@
 			};
 			name = Release;
 		};
-		D669AA2C1B72A872003602D5 /* Debug */ = {
+		D67017731B7460F50094B263 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -383,7 +456,7 @@
 			};
 			name = Debug;
 		};
-		D669AA2D1B72A872003602D5 /* Release */ = {
+		D67017741B7460F50094B263 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -401,32 +474,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D669AA001B72A872003602D5 /* Build configuration list for PBXProject "KHE" */ = {
+		D67017481B7460F50094B263 /* Build configuration list for PBXProject "KHE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D669AA261B72A872003602D5 /* Debug */,
-				D669AA271B72A872003602D5 /* Release */,
+				D670176D1B7460F50094B263 /* Debug */,
+				D670176E1B7460F50094B263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D669AA281B72A872003602D5 /* Build configuration list for PBXNativeTarget "KHE" */ = {
+		D670176F1B7460F50094B263 /* Build configuration list for PBXNativeTarget "KHE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D669AA291B72A872003602D5 /* Debug */,
-				D669AA2A1B72A872003602D5 /* Release */,
+				D67017701B7460F50094B263 /* Debug */,
+				D67017711B7460F50094B263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		D669AA2B1B72A872003602D5 /* Build configuration list for PBXNativeTarget "KHETests" */ = {
+		D67017721B7460F50094B263 /* Build configuration list for PBXNativeTarget "KHETests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D669AA2C1B72A872003602D5 /* Debug */,
-				D669AA2D1B72A872003602D5 /* Release */,
+				D67017731B7460F50094B263 /* Debug */,
+				D67017741B7460F50094B263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D67017541B7460F50094B263 /* KHE.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D67017551B7460F50094B263 /* KHE.xcdatamodel */,
+			);
+			currentVersion = D67017551B7460F50094B263 /* KHE.xcdatamodel */;
+			path = KHE.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = D669A9FD1B72A872003602D5 /* Project object */;
+	rootObject = D67017451B7460F50094B263 /* Project object */;
 }

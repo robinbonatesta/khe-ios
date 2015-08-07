@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D669AA041B72A872003602D5"
+               BlueprintIdentifier = "D670174C1B7460F50094B263"
                BuildableName = "KHE.app"
                BlueprintName = "KHE"
                ReferencedContainer = "container:KHE.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D669AA1D1B72A872003602D5"
+               BlueprintIdentifier = "D67017641B7460F50094B263"
                BuildableName = "KHETests.xctest"
                BlueprintName = "KHETests"
                ReferencedContainer = "container:KHE.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D669AA1D1B72A872003602D5"
+               BlueprintIdentifier = "D67017641B7460F50094B263"
                BuildableName = "KHETests.xctest"
                BlueprintName = "KHETests"
                ReferencedContainer = "container:KHE.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D669AA041B72A872003602D5"
+            BlueprintIdentifier = "D670174C1B7460F50094B263"
             BuildableName = "KHE.app"
             BlueprintName = "KHE"
             ReferencedContainer = "container:KHE.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D669AA041B72A872003602D5"
+            BlueprintIdentifier = "D670174C1B7460F50094B263"
             BuildableName = "KHE.app"
             BlueprintName = "KHE"
             ReferencedContainer = "container:KHE.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D669AA041B72A872003602D5"
+            BlueprintIdentifier = "D670174C1B7460F50094B263"
             BuildableName = "KHE.app"
             BlueprintName = "KHE"
             ReferencedContainer = "container:KHE.xcodeproj">
