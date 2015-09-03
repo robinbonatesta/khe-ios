@@ -55,9 +55,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-KHE/Alamofire.framework'
   install_framework 'Pods-KHE/AlamofireObjectMapper.framework'
   install_framework 'Pods-KHE/ObjectMapper.framework'
+  install_framework 'Pods-KHE/SwiftDate.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-KHE/Alamofire.framework'
   install_framework 'Pods-KHE/AlamofireObjectMapper.framework'
   install_framework 'Pods-KHE/ObjectMapper.framework'
+  install_framework 'Pods-KHE/SwiftDate.framework'
 fi

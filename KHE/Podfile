@@ -1,9 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '8.0'
 use_frameworks!
 
 target 'KHE' do
   pod 'Alamofire', '~> 1.3'
   pod 'AlamofireObjectMapper', '~> 0.7'
+  pod 'SwiftDate', '~> 1.0'
 end
 
 target 'KHETests' do
