@@ -48,13 +48,13 @@ class MessagesTableViewController: UITableViewController {
             let replace = pattern[advance(pattern.startIndex, 1)...advance(pattern.endIndex, -2)]
             return (replace, [NSFontAttributeName: UIFont.italicSystemFontOfSize(17)])
         }
-        bee.add("[?](?)", recursive: false) { (pattern, text, start) -> (String, [NSObject : AnyObject]?) in
-            let end = pattern.rangeOfString("]")
-            let replace = pattern[advance(pattern.startIndex, 1)...advance(end!.endIndex, -2)]
-            let range = NSMakeRange(start, count(replace))
-            cell.messageLabel.addLinkToURL(NSURL(string: "http://google.com"), withRange: range)
-            return (replace, [NSFontAttributeName: UIFont.systemFontOfSize(17)])
-        }
+//        bee.add("[?](?)", recursive: false) { (pattern, text, start) -> (String, [NSObject : AnyObject]?) in
+//            let end = pattern.rangeOfString("]")
+//            let replace = pattern[advance(pattern.startIndex, 1)...advance(end!.endIndex, -2)]
+//            let range = NSMakeRange(start, count(replace))
+//            cell.messageLabel.addLinkToURL(NSURL(string: "http://google.com"), withRange: range)
+//            return (replace, [NSFontAttributeName: UIFont.systemFontOfSize(17)])
+//        }
         
         cell.messageLabel.attributedText = bee.process(message.text)
         
