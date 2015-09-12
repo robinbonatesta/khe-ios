@@ -54,12 +54,16 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-KHE/Alamofire.framework'
   install_framework 'Pods-KHE/AlamofireObjectMapper.framework'
+  install_framework 'Pods-KHE/Bumblebee.framework'
   install_framework 'Pods-KHE/ObjectMapper.framework'
   install_framework 'Pods-KHE/SwiftDate.framework'
+  install_framework 'Pods-KHE/TTTAttributedLabel.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-KHE/Alamofire.framework'
   install_framework 'Pods-KHE/AlamofireObjectMapper.framework'
+  install_framework 'Pods-KHE/Bumblebee.framework'
   install_framework 'Pods-KHE/ObjectMapper.framework'
   install_framework 'Pods-KHE/SwiftDate.framework'
+  install_framework 'Pods-KHE/TTTAttributedLabel.framework'
 fi

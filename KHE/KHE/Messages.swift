@@ -45,7 +45,8 @@ class Messages {
         
         func mapping(map: Map) {
             id <- map["_id"]
-            
+            created <- map["created"]
+            text <- map["text"]
         }
     }
     
